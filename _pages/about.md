@@ -1,8 +1,11 @@
 ---
 layout: page
 title: About Me
+image: images/mug1.png
 permalink: /about/
 ---
+
+![](/images/mug1.png)
 
 Hi, I am Rohit Thakur. 
 
