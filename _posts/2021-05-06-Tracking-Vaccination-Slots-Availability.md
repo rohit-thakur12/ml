@@ -40,7 +40,7 @@ You can do this using "smtplib" which is a library in python that helps you send
 
 ### First we start with importing the necessary libraries.
 
-```
+```python
 import requests
 import json
 from datetime import datetime
@@ -52,7 +52,7 @@ We use "requests" to send requests to the API. We are also using a json file to 
 
  ### Setting up logging.
 
-```
+```python
 import logging
 logging.basicConfig(level=logging.INFO, filename="vaccine.log",format='%(asctime)s - %(message)s')  
 
@@ -62,7 +62,7 @@ We set up logging to keep a check on our app.
 
 ### Load the date and config file.
 
-```
+```python
 date = datetime.today().strftime('%d-%m-%Y')
 
 with open("config.json", "r", encoding="utf-8") as file:
@@ -85,7 +85,7 @@ You can enter your details in the file. You can add or remove pincodes. Currentl
 
 ### Parsing twilio credentials.
 
-```
+```python
     accountSid = data['twilio-sid']
     authToken = data['twilio-auth']
     client = Client(accountSid, authToken)
@@ -98,8 +98,8 @@ You can enter your details in the file. You can add or remove pincodes. Currentl
 
 ## Builing the funtion to monitor the API
 
-```
-    def main():
+```python
+ def main():
     for pincode in data['pincode']:
         _URL = f"https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/calendarByPin?pincode={pincode}&date={date}"
         response = requests.get(_URL)
