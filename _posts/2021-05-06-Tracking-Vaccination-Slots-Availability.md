@@ -9,9 +9,6 @@ image:
 author: Rohit Thakur
 ---
 
-
-# Tracking Availability of Vaccination Slots using COWIN's API
-
 Everyone wants to be vaccinated against covid-19. The only problem being not enough vaccination slots available. With the population being in billions and the daily vaccination doses being barely 50, it almost seems impossible to get a slot.
 
 This is a guide on how to build an application that can automatically monitor COWIN for vaccination slots. 
