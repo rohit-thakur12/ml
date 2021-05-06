@@ -1,6 +1,5 @@
 ---
 title: "Tracking Availability of Vaccination Slots using COWIN's API"
-description: Tracking Cowin to find available vaccination slots.
 toc: false
 comments: true
 layout: post
@@ -45,9 +44,9 @@ from twilio.rest import Client
 ```
 We use "requests" to send requests to the API. We are also using a json file to store all the configurations we need so we can change it whenever we want without breaking the app. Next we import "datetime" which is just so we can get the current date and last we import "twilio" which enables us to send messages. 
 
- NOTE: We have used json here but depending on the sensitivity of the data, you can either use environment variables or a ".ini" file and parse it using python's "configparser".
+NOTE: We have used json here but depending on the sensitivity of the data, you can either use environment variables or a ".ini" file and parse it using python's "configparser".
 
- ### Setting up logging.
+### Setting up logging.
 
 ```python
 import logging
@@ -93,7 +92,7 @@ You can enter your details in the file. You can add or remove pincodes. Currentl
 
  We parse the information that we need to use twilio's API. 
 
-## Builing the funtion to monitor the API
+### Builing the funtion to monitor the API
 
 ```python
  def main():
