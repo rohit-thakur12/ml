@@ -7,7 +7,7 @@ permalink: /about/
 
 Hi, I am Rohit Thakur. 
 
-![MugShot](/images/mug1.png)
+![MugShot](https://avatars.githubusercontent.com/u/46417488?v=4)
 
 I am a Machine Learning Engineer and I specialize in MLOps.  
 
