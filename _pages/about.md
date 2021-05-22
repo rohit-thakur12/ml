@@ -5,9 +5,9 @@ image: images/mug1.png
 permalink: /about/
 ---
 
-![](/images/mug1.png)
-
 Hi, I am Rohit Thakur. 
+
+![](/images/mug1.png)
 
 I am a Machine Learning Engineer and I specialize in MLOps.  
 
